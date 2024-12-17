@@ -1,6 +1,13 @@
 name: molpka
 dependencies:
-  - python=3.8
-  - numpy=1.21
-  - matplotlib=3.7.2
-  - ipykernel=6.29.5
+  - python
+  - pandas
+  - numpy
+  - matplotlib
+  - ipykernel
+  - plotly
+  - seaborn
+  - keras
+  - tensorflow
+  - conda-forge::rdkit
+  - dgl
