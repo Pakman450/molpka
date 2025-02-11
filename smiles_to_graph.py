@@ -32,7 +32,6 @@ def smiles_to_graph(smiles):
             atom.GetFormalCharge(),
             hybridization,
             aromatic
-            
             ])
 
     node_features = torch.tensor(node_features, dtype=torch.float32)
